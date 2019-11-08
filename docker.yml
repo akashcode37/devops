@@ -1,0 +1,9 @@
+- hosts: all
+  connection: ssh
+  tasks:
+   - name: docker
+     docker_container:
+      name: my
+      image: alpine
+
+  
